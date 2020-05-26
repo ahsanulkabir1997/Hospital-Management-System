@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Patient Initial Investigation Form</title>	
+		
+		<link rel="stylesheet" href="style.css" />
+		
+		
+		<link rel="icon" href="img/favicon1.png" type="image/png"/>
+		<link rel="shortcut icon" href="img/favicon1.ico" />		
+		
+	</head>
+	
+	<body>
+			
+		
+		<div class="main_wrap main_hearder_home">
+			<div class="wrap">
+			<header>
+				<div id="header">
+				<img src="img/logo.png" alt="Logo Image" height=100%; />
+				</div>
+			</header>			
+			</div>
+		</div>
+		
+
+	<div id="sticker" class="main_wrap nav_bg">
+			<div class="wrap nav_bg2">
+			<nav>
+				<div id="nav">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#">EMPLOYEE INFO &raquo;</a>
+					<ul>
+						<li><a href="ourdoctors1.html">DOCTORS</a></li>
+						<li><a href="ournurses1.html">NURSES</a></li>
+					</ul>
+					</li>
+					
+					
+					
+					<li><a href="contactus.html">CONTACT US</a></li>
+				</ul>
+				
+				</div>
+			</nav>
+			
+			</div>
+		</div>
+
+		
+		<div class="main_wrap">
+			<div class="wrap form">
+			<h2 id="from_h2">Patient Initial Investigation Form</h2>
+			<form action="" id="form_decoration">
+				
+				
+				
+				<label>Patient Id:
+				<input type="text" /></label><br><br>
+				
+				
+				<label>Date of Admission:
+				<input type="date" /></label><br><br>
+				
+				<label>First Name:
+				<input type="text" name="firstname" /></label>
+				
+				
+				<label>Middle Name:
+				<input type="text" name="middlename" /></label>
+				
+				<label>Last Name:
+				<input type="text" name="lastname" /></label><br><br>
+				
+				<label>Date of birth:
+				<input type="date" /></label><br><br>
+				
+		<br><br>
+				
+				<h3>Patient personal information</h3>
+			<br>
+				<label>Height:
+				<input type="text" name="height" /></label>
+				
+				
+				
+				<label>Weight:
+				<input type="text" name="weight" /></label>	
+				
+			
+				<br><br>
+				
+				<label>
+				Symptoms of the disease: 1. <input type="text" />
+				2.  <input type="text" />
+				3.  <input type="text" />
+				<br>
+				<br>
+				4. <input type="text" />
+				5.  <input type="text" />
+				6.  <input type="text" />
+				</label>
+				<br>
+				<br>
+				<br>
+				<label>Blood Pressure:  Lower 
+				<input type="text" />
+				upper <input type="text" />
+				</label>
+				<br><br>
+				<label for=""><h4>General Food Habit:</h4>
+				</label><br>
+				
+				<label>Breakfast 1. 
+				<input type="text" />
+				2.  <input type="text" />
+				3.  <input type="text" />
+				</label>
+				<br>
+				<br>
+				<label>Lunch      1. 
+				<input type="text" />
+				2.  <input type="text" />
+				3.  <input type="text" />
+				</label>
+				<br>
+				<br>
+				<label>Dinner      1. 
+				<input type="text" />
+				2.  <input type="text" />
+				3.  <input type="text" />
+				</label>
+				<br>
+				<br>
+				
+				<label>Hobby:
+				</label>
+				<br>
+				<br>
+				
+				<label  id="game_select">Game: 1) Foot ball 2) Hokey 3) Volley Ball 4) Cricket 5) Chess 6) All 7) None
+				
+				</label>
+				<br>
+				<br>
+				<label>Others: 1) Tourism 2) Writing
+				</label>
+				<br>
+				<br>
+				<br>
+				 
+				<label><h4>Disease Name:</h4>
+				</label>
+				
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				
+				<label>Signature with date
+				</label>
+				<br>
+				<br>
+				
+				<label>Doctor Id: 
+				<input type="number" />
+				
+				Name of the doctor:
+				
+				<br>
+				<br>
+				Designation:
+				
+				</label>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</form>
+			</div>
+		</div>
+			
+			<div class="main_wrap home_footer">
+				<div class="wrap">
+				<footer>
+					<div id="footer">
+						<p>&copy;  All right reserved by RKZJ Hospital</p>
+					</div>
+				</footer>			
+				</div>
+			</div>
+	
+	<script type="text/javascript" src="js/jquery-1.9.0.min_stick.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var s = $("#sticker");
+			var pos = s.position();					   
+			$(window).scroll(function() {
+				var windowpos = $(window).scrollTop();
+				if (windowpos >= pos.top) {
+					s.addClass("stick");
+				} else {
+					s.removeClass("stick");	
+				}
+			});
+		});
+	</script>
+	
+	<!-- 
+		<div class="main_wrap">
+			<div class="wrap">
+			
+			
+			</div>
+		</div>
+	
+	-->
+			
+		</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>DOCTORS</title>	
+		
+		<link rel="stylesheet" href="style.css" />
+		
+		
+		<link rel="icon" href="img/favicon1.png" type="image/png"/>
+		<link rel="shortcut icon" href="img/favicon1.ico" />		
+		
+	</head>
+	
+	<body>
+			
+		
+		<div class="main_wrap main_hearder_home">
+			<div class="wrap">
+			<header>
+				<div id="header">
+				<img src="img/logo.png" alt="Logo Image" height=100%; />
+				</div>
+			</header>			
+			</div>
+		</div>
+		
+
+	<div id="sticker" class="main_wrap nav_bg">
+			<div class="wrap nav_bg2">
+			<nav>
+				<div id="nav">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#">EMPLOYEE INFO &raquo;</a>
+					<ul>
+						<li><a href="#">DOCTORS</a></li>
+						<li><a href="ournurses1.html">NURSES</a></li>
+					</ul>
+					</li>
+					
+					
+					
+					<li><a href="contactus.html">CONTACT US</a></li>
+				</ul>
+				
+				</div>
+			</nav>
+			
+			</div>
+		</div>
+		
+		<div id="our_doctor"> 
+		
+			<h1>OUR  DOCTORS</h1>
+		
+		</div>
+		
+		<div id="sord"> 
+			<h3>Some of Our Doctors</h4>
+		
+		
+			<div id="wrapper11">
+				<div class="box">
+					<img src="img/doc1.jpg" alt=""/>
+					<h2>Dr. William</h2>
+					
+					
+				</div>
+				<div class="box">
+					<img src="img/doc2.jpg" alt=""/>
+					<h2>Dr. Robert</h2>
+					
+					
+				</div>
+				<div class="box nomrgn">
+					<img src="img/doc3.jpg" alt=""/>
+					<h2>Dr. Michael</h2>
+				
+					
+				</div>			
+			</div>
+		
+		
+
+		</div>
+		
+
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+				
+			<div class="main_wrap home_footer">
+				<div class="wrap">
+				<footer>
+					<div id="footer">
+						<p>&copy;  All right reserved by RKZJ Hospital</p>
+					</div>
+				</footer>			
+				</div>
+			</div>
+	
+	<script type="text/javascript" src="js/jquery-1.9.0.min_stick.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var s = $("#sticker");
+			var pos = s.position();					   
+			$(window).scroll(function() {
+				var windowpos = $(window).scrollTop();
+				if (windowpos >= pos.top) {
+					s.addClass("stick");
+				} else {
+					s.removeClass("stick");	
+				}
+			});
+		});
+	</script>
+	
+	<!-- 
+		<div class="main_wrap">
+			<div class="wrap">
+			
+			
+			</div>
+		</div>
+	
+	-->
+			
+		</body>
+</html>
